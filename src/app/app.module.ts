@@ -4,12 +4,12 @@
 // Importing core modules of Angular
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 // Whenever CLI is used to generate new components and services, it
 // will automatically update this file to import and add them here 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms';
 
 // Further using @NgModule decorator we provide additional metadata to
 // specify the components, the Services, the imports, etc.. Further
